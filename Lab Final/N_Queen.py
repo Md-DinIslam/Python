@@ -13,6 +13,7 @@ def canPlace(i, j, board, n):
                         return 0
                 x -= 1
                 y -= 1
+        # right diagonal..
         x = i
         y = j
         while (x >= 0 and y < n):

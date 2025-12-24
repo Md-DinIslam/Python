@@ -17,7 +17,7 @@ def a_star(start, goal, n, graph, heuristic):
                         continue
                 vis[node] = 1
 
-                if node == goal:
+                if node == goal: # target found...
                         path = []
                         while (node != -1):
                                 path.append(node)
